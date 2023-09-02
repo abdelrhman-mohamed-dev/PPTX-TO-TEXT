@@ -15,7 +15,7 @@ app.listen(port, () => {
 //routes
 
 app.get("/", (req, res) => {
-  res.send("hello");
+  res.send("Working <3");
 });
 
 app.use("/api/upload", uploadRoute);
